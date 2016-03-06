@@ -28,7 +28,7 @@ Just use RippleLayout as LinearLayout because RippleLayout implement LinearLayou
 Use `View` with `RippleLayout` in your layout file:
 
 ```xml
-<com.eason.ripplelayout.RippleLayout
+<your.package.name.RippleLayout
     android:id="@+id/rippleLayout"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -58,7 +58,7 @@ Use `View` with `RippleLayout` in your layout file:
         android:layout_height="wrap_content"
         android:clickable="false"
         android:text="This is a non-clickable TextView" />
-</com.eason.ripplelayout.RippleLayout>
+</your.package.name.RippleLayout>
 ```
 Support for Android api versions <  22 
 -----
