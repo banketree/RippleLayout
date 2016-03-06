@@ -5,6 +5,8 @@ RippleLayout implementation of Ripple effect from Material Design for almost all
 -------------------------
 Caution
 -------------------------
+The child view should be clickable and then it will implementation of Ripple effect.
+
 
 ![Demo Image][1]
 
