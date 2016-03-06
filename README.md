@@ -1,16 +1,24 @@
-RippleLayout
-
-
+# RippleLayout
 ===============
 
-RippleLayout implementation of Ripple effect from Material Design for almost all Android API ,it can generate ripple effect for its children or its own from Material Design.
+RippleLayout implementation of Ripple effect from Material Design for almost all Android API ,it can generate ripple effect for its children or its own from Material Design,once use RippleLayout as parent layout its children will implementation of Ripple effect.
 
 ![Demo Image][1]
 
-Including in your project
 -------------------------
 Usage
 -----
+
+Just use RippleLayout as LinearLayout because RippleLayout implement LinearLayout
+
+```java
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        rippleLayout = (RippleLayout) findViewById(R.id.rippleLayout);
+        rippleLayout.setRippleColor(R.color.ripple_material_light);
+    }
+```
 
 Use `View` with `RippleLayout` in your layout file:
 
