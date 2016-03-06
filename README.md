@@ -5,7 +5,7 @@ RippleLayout
 
 RippleLayout implementation of Ripple effect from Material Design for almost all Android API ,it can generate ripple effect for its children or its own from Material Design.
 
-![Demo Image][https://github.com/chenjunqian/RippleLayout/blob/master/readme-image/Screen%20Recording.gif]
+![Demo Image][1]
 
 Including in your project
 -------------------------
@@ -72,4 +72,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[1]: https://raw.github.com/balysv/material-ripple/master/art/demo.gif
+[1]: https://github.com/chenjunqian/RippleLayout/blob/master/readme-image/Screen%20Recording.gif
