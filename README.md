@@ -1,7 +1,6 @@
 # RippleLayout
-===============
 
-RippleLayout implementation of Ripple effect from Material Design for almost all Android API ,it can generate ripple effect for its children or its own from Material Design,once use RippleLayout as parent layout its children will implementation of Ripple effect.
+RippleLayout implementation of Ripple effect from Material Design for almost all Android API ,it can generate ripple effect for its children or its own from Material Design,once use RippleLayout as parent layout its children which are clickable will implementation of Ripple effect.
 
 ![Demo Image][1]
 
