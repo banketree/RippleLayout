@@ -78,7 +78,6 @@ public class RippleLayout extends LinearLayout {
                 clickedView = touchTarget;
                 isClickedParent = false;
                 initParamForRipple(event, touchTarget,false);
-                // 刷新界面，延迟执行时间
                 postInvalidateDelayed(INVALIDATE_DURATION);
             } else {
                 clickedView = this;
