@@ -58,7 +58,7 @@ public class RippleLayout extends LinearLayout {
     }
 
     public void setRippleColor(int color) {
-        mPaint.setColor(Color.BLACK);
+        mPaint.setColor(color);
     }
 
     @Override

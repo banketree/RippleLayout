@@ -12,11 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rippleLayout = (RippleLayout) findViewById(R.id.rippleLayout);
-
-//        rippleLayout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//            }
-//        });
+        rippleLayout.setRippleColor(R.color.ripple_material_light);
     }
 }
