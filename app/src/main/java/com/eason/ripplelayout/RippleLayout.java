@@ -73,17 +73,17 @@ public class RippleLayout extends LinearLayout {
         int y = (int) event.getRawY();
         int action = event.getAction();
         if (action == MotionEvent.ACTION_DOWN) {
-            View touchTarget = getTouchTarget(this, x, y);
-            if (touchTarget != null && touchTarget.isClickable() && touchTarget.isEnabled()) {
-                clickedView = touchTarget;
+            View clickedView = getTouchTarget(this, x, y);
+            if (clickedView != null && clickedView.isClickable() && clickedView.isEnabled()) {
+                this.clickedView = clickedView;
                 isClickedParent = false;
-                initParamForRipple(event, touchTarget,false);
+                initParamForRipple(event, clickedView,false);
                 postInvalidateDelayed(INVALIDATE_DURATION);
             } else {
-                clickedView = this;
+                this.clickedView = this;
                 isClickedParent = true;
                 RippleLayout.this.setClickable(true);
-                initParamForRipple(event, touchTarget,true);
+                initParamForRipple(event, clickedView,true);
                 postInvalidateDelayed(INVALIDATE_DURATION);
             }
 
