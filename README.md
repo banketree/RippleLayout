@@ -14,7 +14,7 @@ The child view should be clickable and then it will implementation of Ripple eff
 Usage
 -----
 
-Just use RippleLayout as LinearLayout because RippleLayout implement LinearLayout
+Just use RippleLayout as RelativeLayout because RippleLayout implement RelativeLayout
 
 ```java
     protected void onCreate(Bundle savedInstanceState) {
