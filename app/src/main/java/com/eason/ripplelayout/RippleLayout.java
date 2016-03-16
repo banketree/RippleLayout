@@ -9,14 +9,14 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 
 /**
  * Created by Eason on 2/26/16.
  */
-public class RippleLayout extends LinearLayout {
+public class RippleLayout extends RelativeLayout {
 
     private Paint mPaint;
     private int clickedViewWidth;
@@ -91,6 +91,7 @@ public class RippleLayout extends LinearLayout {
             isPressed = false;
             RippleLayout.this.setClickable(false);
             postInvalidateDelayed(INVALIDATE_DURATION);
+            clickedView.performClick();
             return true;
         } else if (action == MotionEvent.ACTION_CANCEL) {
             isPressed = false;
